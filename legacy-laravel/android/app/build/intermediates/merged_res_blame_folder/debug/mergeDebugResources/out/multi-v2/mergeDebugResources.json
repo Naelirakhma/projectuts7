@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "id.simpas.app-debug-3:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\SIMPAS\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,5,9,11,13,6,7,10,12,8",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "189,233,483,590,756,290,344,544,634,412",
+                        "endColumns": "43,56,60,43,51,53,67,45,121,70",
+                        "endOffsets": "228,285,539,629,803,339,407,585,751,478"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,99,156,217,261,313,367,435,481,603",
+                        "endColumns": "43,56,60,43,51,53,67,45,121,70",
+                        "endOffsets": "94,151,212,256,308,362,430,476,598,669"
+                    }
+                }
+            ]
+        }
+    ]
+}

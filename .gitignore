@@ -1,0 +1,39 @@
+# Rahasia dan konfigurasi lokal
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Node
+node_modules/
+dist/
+.vite/
+npm-debug.log*
+yarn-error.log*
+
+# PHP dan Laravel
+/vendor/
+/public/build/
+/public/hot
+/storage/*.key
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*.log
+/bootstrap/cache/*.php
+
+# Log
+*.log
+
+# Editor dan sistem operasi
+.idea/
+.zed/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Berkas sementara
+*.tmp
+*.bak
+*.swp

@@ -1,0 +1,59 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="id.simpas.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\SIMPAS\android\app\src\main\AndroidManifest.xml:4:5-67
+11-->D:\SIMPAS\android\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->D:\SIMPAS\android\app\src\main\AndroidManifest.xml:5:5-79
+12-->D:\SIMPAS\android\app\src\main\AndroidManifest.xml:5:22-76
+13
+14    <application
+14-->D:\SIMPAS\android\app\src\main\AndroidManifest.xml:7:5-27:19
+15        android:debuggable="true"
+16        android:extractNativeLibs="false"
+17        android:icon="@mipmap/ic_launcher"
+17-->D:\SIMPAS\android\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->D:\SIMPAS\android\app\src\main\AndroidManifest.xml:8:9-41
+19        android:roundIcon="@mipmap/ic_launcher"
+19-->D:\SIMPAS\android\app\src\main\AndroidManifest.xml:10:9-48
+20        android:supportsRtl="true"
+20-->D:\SIMPAS\android\app\src\main\AndroidManifest.xml:12:9-35
+21        android:theme="@android:style/Theme.Material.Light.NoActionBar"
+21-->D:\SIMPAS\android\app\src\main\AndroidManifest.xml:13:9-72
+22        android:usesCleartextTraffic="true" >
+22-->D:\SIMPAS\android\app\src\main\AndroidManifest.xml:11:9-44
+23        <activity
+23-->D:\SIMPAS\android\app\src\main\AndroidManifest.xml:15:9-26:20
+24            android:name="id.simpas.app.MainActivity"
+24-->D:\SIMPAS\android\app\src\main\AndroidManifest.xml:16:13-41
+25            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden|smallestScreenSize"
+25-->D:\SIMPAS\android\app\src\main\AndroidManifest.xml:19:13-106
+26            android:exported="true"
+26-->D:\SIMPAS\android\app\src\main\AndroidManifest.xml:17:13-36
+27            android:launchMode="singleTop"
+27-->D:\SIMPAS\android\app\src\main\AndroidManifest.xml:18:13-43
+28            android:windowSoftInputMode="adjustResize" >
+28-->D:\SIMPAS\android\app\src\main\AndroidManifest.xml:20:13-55
+29            <intent-filter>
+29-->D:\SIMPAS\android\app\src\main\AndroidManifest.xml:22:13-25:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->D:\SIMPAS\android\app\src\main\AndroidManifest.xml:23:17-69
+30-->D:\SIMPAS\android\app\src\main\AndroidManifest.xml:23:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->D:\SIMPAS\android\app\src\main\AndroidManifest.xml:24:17-77
+32-->D:\SIMPAS\android\app\src\main\AndroidManifest.xml:24:27-74
+33            </intent-filter>
+34        </activity>
+35    </application>
+36
+37</manifest>

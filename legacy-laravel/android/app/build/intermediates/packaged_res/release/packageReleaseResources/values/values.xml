@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SIMPAS</string>
+    <string name="app_url">http://10.0.2.2:8000</string>
+    <string name="hint_url">http://192.168.1.5:8000</string>
+    <string name="lbl_batal">Batal</string>
+    <string name="lbl_coba_lagi">Coba Lagi</string>
+    <string name="lbl_muat_ulang">Muat Ulang</string>
+    <string name="lbl_pengaturan_server">Pengaturan Server</string>
+    <string name="lbl_simpan">Simpan</string>
+    <string name="msg_galat">Tidak dapat terhubung ke server.\nPeriksa alamat server atau koneksi internet Anda.</string>
+    <string name="msg_pengaturan_server">Alamat server SIMPAS</string>
+</resources>

@@ -1,0 +1,17 @@
+id.simpas.app:string/lbl_pengaturan_server = 0x7f040006
+id.simpas.app:string/lbl_muat_ulang = 0x7f040005
+id.simpas.app:string/lbl_coba_lagi = 0x7f040004
+id.simpas.app:mipmap/ic_launcher = 0x7f030000
+id.simpas.app:layout/activity_main = 0x7f020000
+id.simpas.app:string/msg_pengaturan_server = 0x7f040009
+id.simpas.app:string/lbl_batal = 0x7f040003
+id.simpas.app:string/app_name = 0x7f040000
+id.simpas.app:id/webview = 0x7f010004
+id.simpas.app:string/lbl_simpan = 0x7f040007
+id.simpas.app:string/app_url = 0x7f040001
+id.simpas.app:id/progress = 0x7f010003
+id.simpas.app:id/error_view = 0x7f010002
+id.simpas.app:string/hint_url = 0x7f040002
+id.simpas.app:string/msg_galat = 0x7f040008
+id.simpas.app:id/error_text = 0x7f010001
+id.simpas.app:id/btn_retry = 0x7f010000

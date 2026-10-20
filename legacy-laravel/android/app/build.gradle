@@ -1,0 +1,51 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'id.simpas.app'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "id.simpas.app"
+        minSdk 24
+        targetSdk 35
+        versionCode 1
+        versionName "1.0"
+    }
+
+    signingConfigs {
+        if (file("${rootDir}/simpas.keystore").exists()) {
+            release {
+                storeFile file("${rootDir}/simpas.keystore")
+                storePassword "simpas123"
+                keyAlias "simpas"
+                keyPassword "simpas123"
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            shrinkResources false
+            debuggable false
+            signingConfig signingConfigs.findByName('release') != null
+                ? signingConfigs.release
+                : signingConfigs.debug
+        }
+        debug {
+            debuggable true
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+// WebView murni: tanpa dependensi AndroidX/APK eksternal, agar build
+// bisa selesai penuh dari cache Gradle (offline-friendly).
+dependencies {
+}

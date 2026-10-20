@@ -1,0 +1,7 @@
+id.simpas.app-pngs-0 D:\SIMPAS\android\app\build\generated\res\pngs\release
+id.simpas.app-updated_navigation_xml-1 D:\SIMPAS\android\app\build\generated\updated_navigation_xml\release
+id.simpas.app-packageReleaseResources-2 D:\SIMPAS\android\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+id.simpas.app-packageReleaseResources-3 D:\SIMPAS\android\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+id.simpas.app-release-4 D:\SIMPAS\android\app\build\intermediates\merged_res\release\mergeReleaseResources
+id.simpas.app-main-5 D:\SIMPAS\android\app\src\main\res
+id.simpas.app-release-6 D:\SIMPAS\android\app\src\release\res

@@ -1,0 +1,19 @@
+R_DEF: Internal format may change without notice
+local
+id btn_retry
+id error_text
+id error_view
+id progress
+id webview
+layout activity_main
+mipmap ic_launcher
+string app_name
+string app_url
+string hint_url
+string lbl_batal
+string lbl_coba_lagi
+string lbl_muat_ulang
+string lbl_pengaturan_server
+string lbl_simpan
+string msg_galat
+string msg_pengaturan_server
